@@ -1,0 +1,68 @@
+:root {
+  --primary-color: #4a26fd;
+  --secondary-color: #3F51B5;
+  --tertiary-color: #03A9F4;
+  --accent-color: #E91E63;
+}
+
+.App {
+  background:whitesmoke;
+  max-width: 100vw;
+  max-height: 100vh;
+  display: grid;
+  grid-gap: 2rem;
+  padding: 2rem;
+  grid: 'h c '
+        'h c '
+        'h c ';
+}
+
+
+.block{
+  background: var(--primary-color);
+  color: whitesmoke;
+  height: 80vh;
+  grid-area: h;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  padding: 2rem 2rem 0 2rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.project-tray {
+  overflow: auto;
+  height: 80vh;
+  padding-bottom: 2rem;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(235, 186, 186, 0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.button {
+  display: inline-block;
+  width: 200px;
+  padding: 15px 20px;
+  margin: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: var(--tertiary-color);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 9px lightgray;
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+}
+
+.button:active {
+  background-color: var(--accent-color);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
