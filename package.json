@@ -4,20 +4,10 @@
   "private": true,
   "dependencies": {
     "git": "^0.1.5",
-    "homebrew": "^0.1.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-image": "^2.0.0",
     "react-particles-js": "^2.4.2",
-    "react-player": "^1.9.3",
-    "react-pose": "^4.0.6",
-    "react-render-image": "^1.1.3",
-    "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.3",
-    "redux": "^4.0.1",
-    "styled-components": "^4.1.3",
-    "video-react": "^0.13.2"
+    "react-scripts": "2.1.3"
   },
   "scripts": {
     "start": "react-scripts start",
